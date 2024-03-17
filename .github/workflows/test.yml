@@ -14,7 +14,7 @@ jobs:
 
       - name: Setup
         id: setup
-        uses: prefecthq/actions-setup-nodejs@main
+        uses: khulnasoft-lab/actions-setup-nodejs@main
 
       - name: Validate Types
         run: npm run types
@@ -30,7 +30,7 @@ jobs:
 
       - name: Setup
         id: setup
-        uses: prefecthq/actions-setup-nodejs@main
+        uses: khulnasoft-lab/actions-setup-nodejs@main
 
       - name: Lint application
         run: npm run lint
@@ -46,7 +46,7 @@ jobs:
 
       - name: Setup
         id: setup
-        uses: prefecthq/actions-setup-nodejs@main
+        uses: khulnasoft-lab/actions-setup-nodejs@main
 
       - name: Run unit tests
         run: npm run test

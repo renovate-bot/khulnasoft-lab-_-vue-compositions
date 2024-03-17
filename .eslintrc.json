@@ -10,7 +10,7 @@
     "sourceType": "module",
     "parser": "@typescript-eslint/parser"
   },
-  "extends": ["@prefecthq"],
+  "extends": ["@khulnasoft"],
   "overrides": [
     {
       "files": ["**/*.spec.js", "**/*.spec.ts"]

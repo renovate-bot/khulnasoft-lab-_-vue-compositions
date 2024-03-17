@@ -16,7 +16,7 @@ jobs:
       - name: Checkout orion
         uses: actions/checkout@v2
         with: 
-          repository: PrefectHQ/orion
+          repository: khulnasoft/orion
           token: ${{ secrets.PAT }}
 
       - name: Read .nvmrc
@@ -54,4 +54,4 @@ jobs:
             --body '_automatically created_' \
             --base main
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
