@@ -1,5 +1,5 @@
 {
-  "name": "@prefecthq/vue-compositions",
+  "name": "@khulnasoft/vue-compositions",
   "private": false,
   "version": "1.11.0",
   "description": "A collection of reusable vue compositions.",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/PrefectHQ/vue-compositions.git"
+    "url": "https://github.com/khulnasoft-lab/vue-compositions.git"
   },
   "keywords": [
     "prefect",
@@ -36,11 +36,11 @@
   ],
   "author": "Craig Harshbarger",
   "bugs": {
-    "url": "https://github.com/PrefectHQ/vue-compositions/issues"
+    "url": "https://github.com/khulnasoft-lab/vue-compositions/issues"
   },
-  "homepage": "https://github.com/PrefectHQ/vue-compositions#readme",
+  "homepage": "https://github.com/khulnasoft-lab/vue-compositions#readme",
   "devDependencies": {
-    "@prefecthq/eslint-config": "1.0.31",
+    "@khulnasoft/eslint-config": "1.0.31",
     "@testing-library/vue": "^8.0.0",
     "@types/lodash.debounce": "4.0.9",
     "@types/lodash.isequal": "^4.5.6",

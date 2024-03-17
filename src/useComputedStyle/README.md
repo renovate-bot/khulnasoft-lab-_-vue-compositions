@@ -3,7 +3,7 @@ The `useComputedStyle` composition safely returns a the window.getComputedStyle 
 
 ## Example
 ```typescript
-import { useComputedStyle } from '@prefecthq/vue-compositions'
+import { useComputedStyle } from '@khulnasoft/vue-compositions'
 
 const { paddingLeft, paddingRight } = useComputedStyle(element)
 ```

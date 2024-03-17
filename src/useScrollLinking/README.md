@@ -9,7 +9,7 @@ The `useScrollLinking` is used to link the `element.scrollHeight` and `element.s
 </template>
 
 <script>
-import { useScrollLinking } from '@prefecthq/vue-compositions'
+import { useScrollLinking } from '@khulnasoft/vue-compositions'
 
 const { target, source } = useScrollLinking()
 

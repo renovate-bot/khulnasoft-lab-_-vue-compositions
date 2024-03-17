@@ -3,7 +3,7 @@ The `useVisibilityObserver` composition is based on `useIntersectionObserver` co
 
 ## Example
 ```typescript
-import { useVisibilityObserver } from '@prefecthq/vue-compositions'
+import { useVisibilityObserver } from '@khulnasoft/vue-compositions'
 
 const element = ref<HTMLDivElement>()
 const { visible } = useVisibilityObserver(element)

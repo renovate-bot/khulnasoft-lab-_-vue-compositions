@@ -3,7 +3,7 @@ The `useIntersectionObserver` composition abstracts away the logic for creating 
 
 ## Example
 ```typescript
-import { useIntersectionObserver, UseIntersectionObserverCallback } from '@prefecthq/vue-compositions'
+import { useIntersectionObserver, UseIntersectionObserverCallback } from '@khulnasoft/vue-compositions'
 
 const callback: UseIntersectionObserverCallback = function(entries: IntersectionObserverEntry[]) {
   ...

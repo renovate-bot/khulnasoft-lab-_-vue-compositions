@@ -3,7 +3,7 @@ The `useNow` composition can be used to get a reactive current date instance.
 
 ## Example
 ```typescript
-import { useNow } from '@prefecthq/vue-compositions'
+import { useNow } from '@khulnasoft/vue-compositions'
 
 const { now } = useNow(element)
 ```

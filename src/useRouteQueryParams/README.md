@@ -1,11 +1,11 @@
 # useRouteQueryParams
-The `useRouteQueryParams` gives you a reactive value for multiple query param. It also supports nested objects. For binding a single value, see [useRouteQueryParam](https://github.com/PrefectHQ/vue-compositions/tree/main/src/useRouteQueryParam)
+The `useRouteQueryParams` gives you a reactive value for multiple query param. It also supports nested objects. For binding a single value, see [useRouteQueryParam](https://github.com/khulnasoft-lab/vue-compositions/tree/main/src/useRouteQueryParam)
 
 Unlike `useRouteQueryParam`, a formatter must be provided for every param. This is done by passing in a schema. 
 
 ## Basic Example
 ```typescript
-import { useRouteQueryParams, StringRouteParam } from '@prefecthq/vue-compositions'
+import { useRouteQueryParams, StringRouteParam } from '@khulnasoft/vue-compositions'
 
 const { a, b, c } = useRouteQueryParams({
   a: StringRouteParam,
@@ -26,7 +26,7 @@ a.value // 'foo'
 Schemas can be built from existing types. Types including nested values, values of different types, and optional values
 
 ```typescript
-import { useRouteQueryParams, RouteQueryParamsSchema, StringRouteParam, NumberRouteParam, BooleanRouteParam } from '@prefecthq/vue-compositions'
+import { useRouteQueryParams, RouteQueryParamsSchema, StringRouteParam, NumberRouteParam, BooleanRouteParam } from '@khulnasoft/vue-compositions'
 
 type Filter = {
   search: string,

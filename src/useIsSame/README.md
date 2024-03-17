@@ -3,7 +3,7 @@ The `useIsSame` returns a `ComputedRef<boolean>` that states whether or not the 
 
 ## Example
 ```typescript
-import { useIsSame } from '@prefecthq/vue-compositions'
+import { useIsSame } from '@khulnasoft/vue-compositions'
 import { ref } from 'vue'
 
 const valueA = ref(0)

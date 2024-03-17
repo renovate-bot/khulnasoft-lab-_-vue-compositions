@@ -3,7 +3,7 @@ The `useDebouncedRef` gives you a debounced copy of your input ref but it delays
 
 ## Example
 ```typescript
-import { useDebouncedRef } from '@prefecthq/vue-compositions'
+import { useDebouncedRef } from '@khulnasoft/vue-compositions'
 
 const foo = ref(0)
 const bar = useRouteQueryParam(foo, 1000)

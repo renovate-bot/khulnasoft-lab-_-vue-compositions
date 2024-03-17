@@ -3,7 +3,7 @@ The `useRouteQuery` composition is a reactive wrapper around the query property 
 
 ## Example
 ```typescript
-import { useRouteQuery } from '@prefecthq/vue-compositions'
+import { useRouteQuery } from '@khulnasoft/vue-compositions'
 
 const { query, clear, set, remove } = useRouteQuery()
 

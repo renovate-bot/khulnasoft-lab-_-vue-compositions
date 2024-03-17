@@ -3,7 +3,7 @@ The `useValidation` is an observation only validation composition. It validates 
 
 ## Example
 ```typescript
-import { useValidation, ValidationRule } from '@prefecthq/vue-compositions'
+import { useValidation, ValidationRule } from '@khulnasoft/vue-compositions'
 import { ref } from 'vue'
 
 const isGreaterThanZero: ValidationRule<number> = (value, name) => {

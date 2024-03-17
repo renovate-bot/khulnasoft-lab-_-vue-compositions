@@ -37,7 +37,7 @@ jobs:
         run: git checkout -b "update-vue-compositions"
 
       - name: Update dependency
-        run: npm install @prefecthq/vue-compositions@latest --save --save-exact
+        run: npm install @khulnasoft/vue-compositions@latest --save --save-exact
 
       - name: Commit dependency update
         run: |

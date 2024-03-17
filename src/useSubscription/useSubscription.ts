@@ -12,7 +12,7 @@ export const defaultSubscriptionManager = new SubscriptionManager()
 /**
  * The `useSubscription` composition manages data sharing across components. Multiple components can subscribe to an `action` (any method or function) and share the response value.
  *
- * @see [docs](https://github.com/PrefectHQ/vue-compositions/tree/main/src/useSubscription#readme)
+ * @see [docs](https://github.com/khulnasoft-lab/vue-compositions/tree/main/src/useSubscription#readme)
  *
  * @param action - The function to be executed.
  * @param args - Parameters of the action being executed.

@@ -9,7 +9,7 @@ The composition uses a watcher to remove and re-add the eventListener automatica
 ## Example
 
 ```typescript
-import { useEventListener } from '@prefecthq/vue-compositions'
+import { useEventListener } from '@khulnasoft/vue-compositions'
 
 function handleEvent(event: MouseEvent) {
   // Respond to event

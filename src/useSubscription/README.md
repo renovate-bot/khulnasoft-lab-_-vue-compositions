@@ -3,7 +3,7 @@ The `useSubscription` composition manages data sharing across components. Multip
 
 ## Example
 ```typescript
-import { useSubscription } from '@prefecthq/vue-compositions'
+import { useSubscription } from '@khulnasoft/vue-compositions'
 
 const subscription = useSubscription(action, args, options)
 ```
@@ -42,7 +42,7 @@ When a subscription is removed the channel interval is recalculated. A subscript
 
 To use, just install the Vue plugin onto your app:
 ```typescript
-import { plugin as VueCompositionsDevtools } from '@prefecthq/vue-compositions'
+import { plugin as VueCompositionsDevtools } from '@khulnasoft/vue-compositions'
 
 const app = createApp(App)
 if (/*not in production*/) {

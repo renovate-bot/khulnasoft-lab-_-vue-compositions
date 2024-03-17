@@ -10,7 +10,7 @@ export const plugin: Plugin = {
     setupDevtoolsPlugin({
       id: 'prefect-vue-compositions-devtools',
       label: 'Prefect Devtools',
-      packageName: '@prefecthq/vue-compositions',
+      packageName: '@khulnasoft/vue-compositions',
       homepage: 'https://www.prefect.io/',
       settings: {
         ...useSubscriptionDevtools.SUBSCRIPTION_DEVTOOLS_SETTINGS,

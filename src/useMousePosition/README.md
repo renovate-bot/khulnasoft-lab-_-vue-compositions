@@ -3,7 +3,7 @@ The `useMousePosition` composition is a utility composition that passively track
 
 ## Example
 ```typescript
-import { useMousePosition } from '@prefecthq/vue-compositions'
+import { useMousePosition } from '@khulnasoft/vue-compositions'
 
 const { position, positionAtLastClick } = useMousePosition()
 ```

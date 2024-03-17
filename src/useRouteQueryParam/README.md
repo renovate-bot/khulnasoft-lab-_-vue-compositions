@@ -4,7 +4,7 @@ The `useRouteQueryParam` gives you a reactive value for a query param. So you ca
 
 ## Basic Example
 ```typescript
-import { useRouteQueryParam } from '@prefecthq/vue-compositions'
+import { useRouteQueryParam } from '@khulnasoft/vue-compositions'
 
 const foo = useRouteQueryParam('foo')
 const fizz = useRouteQueryParam('fizz', 'buz')
@@ -21,7 +21,7 @@ console.log(foo.value) // 'bar'
 Query params are always strings. But if a different format is desired a formatter can be used. Formatters for `boolean`, `number`, and `string` are provided. But custom formatters can be created by extending the `RouteParam` class. 
 
 ```typescript
-import { useRouteQueryParam, NumberRouteParam, BooleanRouteParam } from '@prefecthq/vue-compositions'
+import { useRouteQueryParam, NumberRouteParam, BooleanRouteParam } from '@khulnasoft/vue-compositions'
 
 const number = useRouteQueryParam('number', NumberRouteParam, 0)
 const boolean = useRouteQueryParam('boolean', BooleanRouteParam, false)
@@ -42,7 +42,7 @@ console.log(boolean.value) // true
 By default all params are treated as single values. And if multiple values exist in the query only the first will be returned. Providing an array as the default value changes the behavior and ensures the value returned is always an array.
 
 ```typescript
-import { useRouteQueryParam } from '@prefecthq/vue-compositions'
+import { useRouteQueryParam } from '@khulnasoft/vue-compositions'
 
 const array = useRouteQueryParam('value', [])
 

@@ -3,7 +3,7 @@ The `useResizeObserver` abstracts the creation of an [ResizeObserver](https://de
 
 ## Example
 ```typescript
-import { useResizeObserver, UseResizeObserverCallback } from '@prefecthq/vue-compositions'
+import { useResizeObserver, UseResizeObserverCallback } from '@khulnasoft/vue-compositions'
 
 const callback: UseResizeObserverCallback = function(entries: ResizeObserverEntry[]) {
   ...

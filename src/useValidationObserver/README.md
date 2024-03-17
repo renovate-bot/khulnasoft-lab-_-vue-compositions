@@ -3,7 +3,7 @@ The `useValidationObserver` observes all validation from all `useValidation` com
 
 ## Example
 ```typescript
-import { useValidationObserver, useValidation, ValidationRule } from '@prefecthq/vue-compositions'
+import { useValidationObserver, useValidation, ValidationRule } from '@khulnasoft/vue-compositions'
 import { ref } from 'vue'
 
 const { valid: allValid } = useValidationObserver()

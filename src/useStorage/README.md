@@ -3,7 +3,7 @@ The `useStorage` composition is a reactive wrapper around localStorage and sessi
 
 ## Example
 ```typescript
-import { useStorage } from '@prefecthq/vue-compositions'
+import { useStorage } from '@khulnasoft/vue-compositions'
 
 const { value: foo } = useStorage('local', 'foo') // type is `unknown`
 const { value: bar } = useStorage<boolean>('local', 'bar') // type is `boolean`
@@ -11,7 +11,7 @@ const { value: bas } = useStorage('local', 'bas', false) // type 'boolean'
 ```
 Two additional compositions are exported as a convenience for each type of storage. `useLocalStorage` and `useSessionStorage`. 
 ```typescript
-import { useLocalStorage, useSessionStorage } from '@prefecthq/vue-compositions'
+import { useLocalStorage, useSessionStorage } from '@khulnasoft/vue-compositions'
 
 // this
 const { value: foo } = useLocalStorage('foo')
