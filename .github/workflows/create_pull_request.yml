@@ -16,7 +16,7 @@ jobs:
       - name: Checkout orion
         uses: actions/checkout@v2
         with: 
-          repository: PrefectHQ/orion
+          repository: khulnasoft/orion
           token: ${{ secrets.PAT }}
 
       - name: Read .nvmrc
